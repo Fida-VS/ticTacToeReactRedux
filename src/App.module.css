@@ -1,0 +1,64 @@
+.app{
+width: 457px;
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+}
+
+.header{
+	background-color: #f3c1c1;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.headerCross, .headerZero{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+.field{
+	display: flex;
+	flex-direction: column;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #9e9c9c;
+}
+
+.fieldItem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.buttonNewGame{
+	height: 100px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #f3c1c1;
+	border-radius: 20px;
+	margin-top: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.green{
+	color: green;
+}
+
+.status{
+	color: black;
+}
